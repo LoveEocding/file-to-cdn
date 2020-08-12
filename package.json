@@ -1,0 +1,33 @@
+{
+  "name": "file-to-cdn",
+  "version": "1.0.0",
+  "description": "本地打包中上传本地图片到cdn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "node",
+    "file",
+    "cdn"
+  ],
+  "author": "聂尧",
+  "license": "ISC",
+  "devDependencies": {
+    "bable-loader": "0.0.1-security",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "imageinfo": "^1.0.4",
+    "request": "^2.88.2"
+  }
+}
