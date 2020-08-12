@@ -21,7 +21,7 @@ plugins:[
 ],
 ```
 ## Donation
-[github](https://www.google.com.hk/)
+[github](https://github.com/LoveEocding/file-to-cdn)
 ...
 
 ## Contact me(联系我)
